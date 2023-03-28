@@ -28,9 +28,9 @@ GM.Config.allowjobswitch                = true
 -- allowrpnames - Allow Players to Set their RP names using the /rpname command.
 GM.Config.allowrpnames                  = true
 -- allowsprays - Enable/disable the use of sprays on the server.
-GM.Config.allowsprays                   = true
+GM.Config.allowsprays                   = false
 -- allowvehicleowning - Enable/disable whether people can own vehicles.
-GM.Config.allowvehicleowning            = true
+GM.Config.allowvehicleowning            = false
 -- allowvnocollide - Enable/disable the ability to no-collide a vehicle (for security).
 GM.Config.allowvnocollide               = false
 -- alltalk - Enable for global chat, disable for local chat.
@@ -66,11 +66,11 @@ GM.Config.deathblack                    = false
 -- showdeaths - Display kill information in the upper right corner of everyone's screen.
 GM.Config.showdeaths                    = true
 -- deadtalk - Enable/disable whether people talk and use commands while dead.
-GM.Config.deadtalk                      = true
+GM.Config.deadtalk                      = false
 -- deadvoice - Enable/disable whether people talk through the microphone while dead.
-GM.Config.deadvoice                     = true
+GM.Config.deadvoice                     = false
 -- deathpov - Enable/disable whether people see their death in first person view.
-GM.Config.deathpov                      = false
+GM.Config.deathpov                      = true
 -- decalcleaner - Enable/Disable clearing every player's decals.
 GM.Config.decalcleaner                  = false
 -- disallowClientsideScripts - Clientside scripts can be very useful for customizing the HUD or to aid in building. This option bans those scripts.
@@ -78,7 +78,7 @@ GM.Config.disallowClientsideScripts     = false
 -- doorwarrants - Enable/disable Warrant requirement to enter property.
 GM.Config.doorwarrants                  = true
 -- dropmoneyondeath - Enable/disable whether people drop money on death.
-GM.Config.dropmoneyondeath              = false
+GM.Config.dropmoneyondeath              = true
 -- droppocketarrest - Enable/disable whether people drop the stuff in their pockets when they get arrested.
 GM.Config.droppocketarrest              = false
 -- droppocketdeath - Enable/disable whether people drop the stuff in their pockets when they die.
@@ -94,7 +94,7 @@ GM.Config.earthquakes                   = false
 -- enablebuypistol - Turn /buy on of off.
 GM.Config.enablebuypistol               = true
 -- enforceplayermodel - Whether or not to force players to use their role-defined character models.
-GM.Config.enforceplayermodel            = true
+GM.Config.enforceplayermodel            = false
 -- globalshow - Whether or not to display player info above players' heads in-game.
 GM.Config.globalshow                    = false
 -- ironshoot - Enable/disable whether people need iron sights to shoot.
@@ -122,7 +122,7 @@ GM.Config.needwantedforarrest           = false
 -- noguns - Enabling this feature bans Guns and Gun Dealers.
 GM.Config.noguns                        = false
 -- norespawn - Enable/Disable that people don't have to respawn when they change job.
-GM.Config.norespawn                     = true
+GM.Config.norespawn                     = false
 -- keepPickedUp - Enable/Disable keeping picked up weapons when switching jobs.
 GM.Config.keepPickedUp                  = false
 -- instantjob - Enable/Disable instantly respawning when norespawn is false
